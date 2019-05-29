@@ -33,5 +33,5 @@ def my_place(array)
   new_string << "I live with me"
   new_string
 end
-arr = ['You', 'Me', 'I'] 
+arr = ['you', 'me', 'i']
 my_place(arr)
