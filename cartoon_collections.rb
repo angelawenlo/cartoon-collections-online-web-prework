@@ -31,7 +31,7 @@ def my_place(array)
     new_string << " #{index+1}. #{w}"
   end
   new_string << "I live with me"
-  return new_string
+  puts new_string
 end
 arr = ['you', 'me', 'i']
 my_place(arr)
