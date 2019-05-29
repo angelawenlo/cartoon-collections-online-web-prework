@@ -30,7 +30,7 @@ def my_place(array)
   array.each_with_index do |w, index|
     new_string << " #{index+1}. #{w}"
   end
-  new_string << "I live with me"
+  new_string << " That live with me"
   puts new_string
 end
 arr = ['you', 'me', 'i']
