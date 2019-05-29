@@ -29,6 +29,7 @@ def my_place(array)
   new_string = "I have a huge home!"
   array.each_with_index do |w, index|
     new_string << " #{index+1}. #{w}"
+  end
 end
 arr = ['You', 'Me', 'I'] 
 my_place(arr)
